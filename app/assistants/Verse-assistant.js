@@ -35,12 +35,12 @@ VerseAssistant.prototype.handleCommand = function(event) {
 
 		if(event.command == "back"){
 			VERSE--;
-			this.controller.stageController.swapScene({name: "Verse", transition: Mojo.Transition.none});
+			this.controller.stageController.swapScene({name: "Verse", transition: Mojo.Transition.crossFade});
 			//this.loadPage(VERSE);
 		}
 		if(event.command == "fwd"){
 			VERSE++;
-			this.controller.stageController.swapScene({name: "Verse", transition: Mojo.Transition.none});
+			this.controller.stageController.swapScene({name: "Verse", transition: Mojo.Transition.crossFade});
 			//this.loadPage(VERSE);
 		}
 		
