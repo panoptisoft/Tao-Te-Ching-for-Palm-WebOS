@@ -1,0 +1,38 @@
+/* TODO: put your application-specific CSS here */
+
+body.tao {
+	background: url(../images/background.jpg) top center;
+}
+
+#tao-header {
+	font-size: 18pt;
+	font-weight: bold;
+}
+#tao-subheader {
+	color: #000000;
+	font-size: 13pt;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 45px;
+}
+
+
+#tao-back, #tao-forward {
+	width: 80px;
+}
+#tao-back {
+	float: left;
+}
+#tao-forward {
+	float: right;
+}
+
+#tao-toc {
+	padding-left: 30px;
+	width: 260px;
+}
+
+#tao-verse {
+	padding: 40px;
+	padding-top: 55px;
+}

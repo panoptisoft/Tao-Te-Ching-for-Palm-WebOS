@@ -1,0 +1,9 @@
+{
+	"id": "com.panoptisoft.taoteching",
+	"version": "1.0.0",
+	"vendor": "Panoptisoft",
+	"type": "web",
+	"main": "index.html",
+	"title": "Tao Te Ching",
+	"icon": "icon.png"
+}
